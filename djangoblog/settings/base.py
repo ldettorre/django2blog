@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG")
 
-ALLOWED_HOSTS = ['django-blog-features-lucad.c9users.io', "https://django-blog-luca.herokuapp.com/"]
+ALLOWED_HOSTS = ['django-blog-features-lucad.c9users.io', 'django-blog-luca.herokuapp.com']
 
 
 # Application definition
